@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            ROCK, PAPER, SCISSORS
+        </h1>
+        <button id="restart" class="restart-btn">Restart Game</button>
+        <div class="game__account">
+            <p>Player: 0</p>
+            <p>Draw: 0</p>
+            <p>Computer: 0</p>
+        </div>
+        <h3 class="description">
+            Make a choice
+        </h3>
+        <div>
+            
+        </div>
+        <div class="flex">
+            <i class="hands fas fa-hand-rock fa-10x" id="rock"></i>
+            <i class="hands fas fa-hand-paper fa-10x" id="paper"></i>
+            <i class="hands fas fa-hand-scissors fa-10x" id="scissors"></i>
+        </div>
+    </div>
+    <div class="modal">
+        <div id="result" class="modal-content"></div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

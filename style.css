@@ -1,0 +1,104 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+.modal{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+.modal .modal-content{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin: 120px auto;
+}
+.won{
+    color: green;
+    font-size: 60px;
+}
+.lost{
+    color: red;
+    font-size: 60px;
+}
+.draw{
+    color: chocolate;
+    font-size: 60px;
+}
+.modal-content i{
+    margin: 30px 0;
+    font-size: 180px;
+}
+.result__description{
+    font-size: 30px;
+}
+*{
+    font-family:monospace;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    margin: 25px 0;
+    text-align: center;
+}
+#restart{
+    display: none;
+    padding: 15px 20px;
+    font-size: large;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.game__account{
+    width: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.game__account > p{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    width: 33%;
+    padding: 5px;
+}
+.game__account > p:nth-child(1){
+    background-color: blue;
+}
+.game__account > p:nth-child(2){
+    background-color: rgb(17, 255, 0);
+}
+.game__account > p:nth-child(3){
+    background-color: red;
+}
+.description{
+    text-align: center;
+    font-size: 22px;
+    margin: 25px;
+}
+.flex{
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex i{
+    transition: all .3s linear;
+    cursor: pointer;
+    color: rgb(32, 32, 32);
+}
+.flex i:hover{
+    color: blue;
+}
